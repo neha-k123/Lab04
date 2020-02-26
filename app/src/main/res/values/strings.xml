@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab04</string>
+    <string name="hello">Hello Mr. Tra! </string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+</resources>
