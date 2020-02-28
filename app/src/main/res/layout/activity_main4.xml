@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="162dp"
+        android:layout_height="147dp"
+        android:background="#E91E63"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="90dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="184dp"
+        android:background="#699E8D"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="174dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="228dp"
+        android:background="#2994C5"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="208dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="296dp"
+        android:background="#051D30"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="83dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="280dp"
+        android:background="#9C9123"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

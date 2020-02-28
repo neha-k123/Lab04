@@ -4,4 +4,7 @@
     <string name="one">one</string>
     <string name="two">two</string>
     <string name="three">three</string>
+    <string name="bob">i am button</string>
+    <string name="really_long_string">longggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</string>
+
 </resources>
