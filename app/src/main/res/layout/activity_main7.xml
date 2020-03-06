@@ -14,11 +14,27 @@
         android:orientation="horizontal"/>
 
     <TextView
-        android:text="@+id/hello"
+        android:text="@string/whats_up"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guide"
+        app:layout_constraintBottom_toTopOf="@+id/guide"
+        android:id="@+id/txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt"
+        android:orientation="vertical">
+
+
+        <include
+            app:layout_constraintTop_toBottomOf="@+id/txt"
+            layout="@layout/nested" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
